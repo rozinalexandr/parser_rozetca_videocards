@@ -1,5 +1,6 @@
 from Parser import Parser
 
+
 url = "https://hard.rozetka.com.ua/videocards/c80087/"
 
 headers = {
@@ -11,3 +12,5 @@ headers = {
 if __name__ == '__main__':
     parser = Parser(url, headers)
     parser.parse()
+
+
