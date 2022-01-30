@@ -6,7 +6,7 @@ connection.execute("""
     CREATE TABLE source(
         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
         title TEXT,
-        price INT,
+        price TEXT,
         memory_frequency TEXT,
         graphics_chip TEXT,
         memory_capacity TEXT,
